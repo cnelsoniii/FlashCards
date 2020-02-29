@@ -1,0 +1,31 @@
+﻿<Properties StartupConfiguration="{6001636B-464E-4AE2-9DD7-EB0F5DF7DEEC}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="KoreanFlashCards.Android/FlashCardPage.xaml">
+    <Files>
+      <File FileName="KoreanFlashCards.Android/FlashCardPage.xaml" Line="1" Column="1" />
+      <File FileName="KoreanFlashCards.Android/FlashCardPage.xaml.cs" Line="1" Column="1" />
+      <File FileName="KoreanFlashCards/Flashcard.cs" Line="1" Column="1" />
+      <File FileName="KoreanFlashCards/Deck.cs" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="KoreanFlashCards" expanded="True">
+            <Node name="KoreanFlashCards" expanded="True">
+              <Node name="MainPage.xaml" expanded="True" />
+            </Node>
+            <Node name="KoreanFlashCards.Android" expanded="True">
+              <Node name="FlashCardPage.xaml" expanded="True" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.KoreanFlashCards.Android PreferredExecutionTarget="Android.SelectDevice" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

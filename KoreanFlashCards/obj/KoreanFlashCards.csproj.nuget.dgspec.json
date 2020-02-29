@@ -1,0 +1,73 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/corneliusnelson/Projects/KoreanFlashCards/KoreanFlashCards/KoreanFlashCards.csproj": {}
+  },
+  "projects": {
+    "/Users/corneliusnelson/Projects/KoreanFlashCards/KoreanFlashCards/KoreanFlashCards.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/corneliusnelson/Projects/KoreanFlashCards/KoreanFlashCards/KoreanFlashCards.csproj",
+        "projectName": "KoreanFlashCards",
+        "projectPath": "/Users/corneliusnelson/Projects/KoreanFlashCards/KoreanFlashCards/KoreanFlashCards.csproj",
+        "packagesPath": "/Users/corneliusnelson/.nuget/packages/",
+        "outputPath": "/Users/corneliusnelson/Projects/KoreanFlashCards/KoreanFlashCards/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/corneliusnelson/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            },
+            "Xamarin.Android.Support.v7.CardView": {
+              "target": "Package",
+              "version": "[28.0.0.3, )"
+            },
+            "Xamarin.Essentials": {
+              "target": "Package",
+              "version": "[1.5.0, )"
+            },
+            "Xamarin.Forms": {
+              "target": "Package",
+              "version": "[4.5.0.356, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.102/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
