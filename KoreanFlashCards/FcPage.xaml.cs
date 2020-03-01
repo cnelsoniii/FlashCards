@@ -18,6 +18,16 @@ namespace KoreanFlashCards
             cardsView.SetBinding(CardsView.SelectedIndexProperty, nameof(CardsSampleViewModel.CurrentIndex));
 
             InitializeComponent();
+
+            Content = new AbsoluteLayout()
+            {
+                Children =
+                {
+                    cardsView
+                }
+            };
+
+            BindingContext = new CardsSampleViewModel();
         }
     }
 }
