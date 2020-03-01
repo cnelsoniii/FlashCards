@@ -10,7 +10,7 @@ namespace KoreanFlashCards
         {
             InitializeComponent();
 
-            MainPage = new NavigationPage(new MainPage());
+            MainPage = new NavigationPage(new FcPage());
         }
 
         protected override void OnStart()

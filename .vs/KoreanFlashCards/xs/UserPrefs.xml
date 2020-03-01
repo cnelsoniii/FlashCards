@@ -1,21 +1,25 @@
 ﻿<Properties StartupConfiguration="{6001636B-464E-4AE2-9DD7-EB0F5DF7DEEC}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="KoreanFlashCards.Android/FlashCardPage.xaml">
+  <MonoDevelop.Ide.Workbench ActiveDocument="KoreanFlashCards/CardsSampleViewModel.cs">
     <Files>
-      <File FileName="KoreanFlashCards.Android/FlashCardPage.xaml" Line="1" Column="1" />
-      <File FileName="KoreanFlashCards.Android/FlashCardPage.xaml.cs" Line="1" Column="1" />
-      <File FileName="KoreanFlashCards/Flashcard.cs" Line="1" Column="1" />
-      <File FileName="KoreanFlashCards/Deck.cs" Line="1" Column="1" />
+      <File FileName="KoreanFlashCards/FcPage.xaml" Line="1" Column="1" />
+      <File FileName="KoreanFlashCards/FcPage.xaml.cs" Line="17" Column="68" />
+      <File FileName="KoreanFlashCards/App.xaml.cs" Line="13" Column="53" />
+      <File FileName="KoreanFlashCards/DefaultCardItemView.cs" Line="1" Column="1" />
+      <File FileName="KoreanFlashCards/CardsSampleViewModel.cs" Line="8" Column="24" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="KoreanFlashCards" expanded="True">
             <Node name="KoreanFlashCards" expanded="True">
-              <Node name="MainPage.xaml" expanded="True" />
+              <Node name="Dependencies" expanded="True">
+                <Node name="PackageDependencies" expanded="True" />
+              </Node>
+              <Node name="App.xaml" expanded="True" />
+              <Node name="CardsSampleViewModel.cs" selected="True" />
+              <Node name="FcPage.xaml" expanded="True" />
             </Node>
-            <Node name="KoreanFlashCards.Android" expanded="True">
-              <Node name="FlashCardPage.xaml" expanded="True" selected="True" />
-            </Node>
+            <Node name="KoreanFlashCards.Android" expanded="True" />
           </Node>
         </State>
       </Pad>
@@ -23,7 +27,7 @@
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.KoreanFlashCards.Android PreferredExecutionTarget="Android.SelectDevice" />
+  <MonoDevelop.Ide.ItemProperties.KoreanFlashCards.Android PreferredExecutionTarget="Android.288479dc793f7ece" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>

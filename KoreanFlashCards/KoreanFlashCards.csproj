@@ -13,12 +13,15 @@
   <ItemGroup>
     <PackageReference Include="Xamarin.Forms" Version="4.5.0.356" />
     <PackageReference Include="Xamarin.Essentials" Version="1.5.0" />
+    <PackageReference Include="CardsView" Version="2.4.8" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Remove="SubmitPage.xaml" />
+    <EmbeddedResource Remove="FlashCardPage.xaml" />
   </ItemGroup>
   <ItemGroup>
     <Compile Remove="SubmitPage.xaml.cs" />
     <Compile Remove="FlashCardPage.cs" />
+    <Compile Remove="FlashCardPage.xaml.cs" />
   </ItemGroup>
 </Project>

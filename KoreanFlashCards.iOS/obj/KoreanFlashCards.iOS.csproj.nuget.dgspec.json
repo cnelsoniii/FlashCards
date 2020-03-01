@@ -36,6 +36,10 @@
       "frameworks": {
         "xamarinios10": {
           "dependencies": {
+            "CardsView": {
+              "target": "Package",
+              "version": "[2.4.8, )"
+            },
             "Xamarin.Essentials": {
               "target": "Package",
               "version": "[1.5.0, )"
@@ -91,6 +95,10 @@
       "frameworks": {
         "netstandard2.0": {
           "dependencies": {
+            "CardsView": {
+              "target": "Package",
+              "version": "[2.4.8, )"
+            },
             "NETStandard.Library": {
               "suppressParent": "All",
               "target": "Package",

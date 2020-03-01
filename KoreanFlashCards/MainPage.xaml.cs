@@ -39,5 +39,10 @@ namespace KoreanFlashCards
         {
             Navigation.PushAsync(new QuizPage());
         }
+
+        void Navigate_To_FlashcardPage(System.Object sender, System.EventArgs e)
+        {
+            Navigation.PushAsync(new QuizPage());
+        }
     }
 }

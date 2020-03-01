@@ -36,15 +36,15 @@
       "frameworks": {
         "netstandard2.0": {
           "dependencies": {
+            "CardsView": {
+              "target": "Package",
+              "version": "[2.4.8, )"
+            },
             "NETStandard.Library": {
               "suppressParent": "All",
               "target": "Package",
               "version": "[2.0.3, )",
               "autoReferenced": true
-            },
-            "Xamarin.Android.Support.v7.CardView": {
-              "target": "Package",
-              "version": "[28.0.0.3, )"
             },
             "Xamarin.Essentials": {
               "target": "Package",

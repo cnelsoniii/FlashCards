@@ -2,6 +2,18 @@
   "version": 3,
   "targets": {
     ".NETStandard,Version=v2.0": {
+      "CardsView/2.4.8": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.Forms": "3.0.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/PanCardView.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/PanCardView.dll": {}
+        }
+      },
       "Microsoft.NETCore.Platforms/1.1.0": {
         "type": "package",
         "compile": {
@@ -67,6 +79,31 @@
     }
   },
   "libraries": {
+    "CardsView/2.4.8": {
+      "sha512": "LJnWepe8mTLLQW64MWoIjU4J3S0atymbahWybmRkwaoe7M1GRGUxE02qTu0FowwJgZsoYrkwnx/Pa55fPKy2iQ==",
+      "type": "package",
+      "path": "cardsview/2.4.8",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "cardsview.2.4.8.nupkg.sha512",
+        "cardsview.nuspec",
+        "lib/MonoAndroid10/PanCardView.Droid.dll",
+        "lib/MonoAndroid10/PanCardView.dll",
+        "lib/Xamarin.Mac20/PanCardView.dll",
+        "lib/Xamarin.iOS10/PanCardView.dll",
+        "lib/Xamarin.iOS10/PanCardView.iOS.dll",
+        "lib/XamarinTVOS/PanCardView.dll",
+        "lib/net45/PanCardView.dll",
+        "lib/net46/PanCardView.dll",
+        "lib/netstandard1.0/PanCardView.dll",
+        "lib/netstandard2.0/PanCardView.dll",
+        "lib/tizen40/PanCardView.dll",
+        "lib/uap/PanCardView.dll",
+        "lib/win81/PanCardView.dll",
+        "lib/wpa81/PanCardView.dll"
+      ]
+    },
     "Microsoft.NETCore.Platforms/1.1.0": {
       "sha512": "kz0PEW2lhqygehI/d6XsPCQzD7ff7gUJaVGPVETX611eadGsA3A877GdSlU0LRVMCTH/+P3o2iDTak+S08V2+A==",
       "type": "package",
@@ -591,6 +628,7 @@
   },
   "projectFileDependencyGroups": {
     ".NETStandard,Version=v2.0": [
+      "CardsView >= 2.4.8",
       "NETStandard.Library >= 2.0.3",
       "Xamarin.Essentials >= 1.5.0",
       "Xamarin.Forms >= 4.5.0.356"
@@ -631,6 +669,10 @@
     "frameworks": {
       "netstandard2.0": {
         "dependencies": {
+          "CardsView": {
+            "target": "Package",
+            "version": "[2.4.8, )"
+          },
           "NETStandard.Library": {
             "suppressParent": "All",
             "target": "Package",

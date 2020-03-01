@@ -2,6 +2,20 @@
   "version": 3,
   "targets": {
     "Xamarin.iOS,Version=v1.0": {
+      "CardsView/2.4.8": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.Forms": "3.0.0"
+        },
+        "compile": {
+          "lib/Xamarin.iOS10/PanCardView.dll": {},
+          "lib/Xamarin.iOS10/PanCardView.iOS.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/PanCardView.dll": {},
+          "lib/Xamarin.iOS10/PanCardView.iOS.dll": {}
+        }
+      },
       "Xamarin.Essentials/1.5.0": {
         "type": "package",
         "frameworkAssemblies": [
@@ -142,6 +156,7 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
+          "CardsView": "2.4.8",
           "Xamarin.Essentials": "1.5.0",
           "Xamarin.Forms": "4.5.0.356"
         },
@@ -154,6 +169,20 @@
       }
     },
     "Xamarin.iOS,Version=v1.0/win": {
+      "CardsView/2.4.8": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.Forms": "3.0.0"
+        },
+        "compile": {
+          "lib/Xamarin.iOS10/PanCardView.dll": {},
+          "lib/Xamarin.iOS10/PanCardView.iOS.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/PanCardView.dll": {},
+          "lib/Xamarin.iOS10/PanCardView.iOS.dll": {}
+        }
+      },
       "Xamarin.Essentials/1.5.0": {
         "type": "package",
         "frameworkAssemblies": [
@@ -294,6 +323,7 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
+          "CardsView": "2.4.8",
           "Xamarin.Essentials": "1.5.0",
           "Xamarin.Forms": "4.5.0.356"
         },
@@ -306,6 +336,20 @@
       }
     },
     "Xamarin.iOS,Version=v1.0/win-x64": {
+      "CardsView/2.4.8": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.Forms": "3.0.0"
+        },
+        "compile": {
+          "lib/Xamarin.iOS10/PanCardView.dll": {},
+          "lib/Xamarin.iOS10/PanCardView.iOS.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/PanCardView.dll": {},
+          "lib/Xamarin.iOS10/PanCardView.iOS.dll": {}
+        }
+      },
       "Xamarin.Essentials/1.5.0": {
         "type": "package",
         "frameworkAssemblies": [
@@ -446,6 +490,7 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
+          "CardsView": "2.4.8",
           "Xamarin.Essentials": "1.5.0",
           "Xamarin.Forms": "4.5.0.356"
         },
@@ -458,6 +503,20 @@
       }
     },
     "Xamarin.iOS,Version=v1.0/win-x86": {
+      "CardsView/2.4.8": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.Forms": "3.0.0"
+        },
+        "compile": {
+          "lib/Xamarin.iOS10/PanCardView.dll": {},
+          "lib/Xamarin.iOS10/PanCardView.iOS.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/PanCardView.dll": {},
+          "lib/Xamarin.iOS10/PanCardView.iOS.dll": {}
+        }
+      },
       "Xamarin.Essentials/1.5.0": {
         "type": "package",
         "frameworkAssemblies": [
@@ -598,6 +657,7 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
+          "CardsView": "2.4.8",
           "Xamarin.Essentials": "1.5.0",
           "Xamarin.Forms": "4.5.0.356"
         },
@@ -611,6 +671,31 @@
     }
   },
   "libraries": {
+    "CardsView/2.4.8": {
+      "sha512": "LJnWepe8mTLLQW64MWoIjU4J3S0atymbahWybmRkwaoe7M1GRGUxE02qTu0FowwJgZsoYrkwnx/Pa55fPKy2iQ==",
+      "type": "package",
+      "path": "cardsview/2.4.8",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "cardsview.2.4.8.nupkg.sha512",
+        "cardsview.nuspec",
+        "lib/MonoAndroid10/PanCardView.Droid.dll",
+        "lib/MonoAndroid10/PanCardView.dll",
+        "lib/Xamarin.Mac20/PanCardView.dll",
+        "lib/Xamarin.iOS10/PanCardView.dll",
+        "lib/Xamarin.iOS10/PanCardView.iOS.dll",
+        "lib/XamarinTVOS/PanCardView.dll",
+        "lib/net45/PanCardView.dll",
+        "lib/net46/PanCardView.dll",
+        "lib/netstandard1.0/PanCardView.dll",
+        "lib/netstandard2.0/PanCardView.dll",
+        "lib/tizen40/PanCardView.dll",
+        "lib/uap/PanCardView.dll",
+        "lib/win81/PanCardView.dll",
+        "lib/wpa81/PanCardView.dll"
+      ]
+    },
     "Xamarin.Essentials/1.5.0": {
       "sha512": "smsjVQ05+EUpynNmzDVOKu4hE17c5WZU79cgWxAkZtJPXqJdNUoqFpj34n4s32QsPdLSgRE/B48+64q1ycqD+Q==",
       "type": "package",
@@ -949,6 +1034,7 @@
   },
   "projectFileDependencyGroups": {
     "Xamarin.iOS,Version=v1.0": [
+      "CardsView >= 2.4.8",
       "KoreanFlashCards >= 1.0.0",
       "Xamarin.Essentials >= 1.5.0",
       "Xamarin.Forms >= 4.5.0.356"
@@ -989,6 +1075,10 @@
     "frameworks": {
       "xamarinios10": {
         "dependencies": {
+          "CardsView": {
+            "target": "Package",
+            "version": "[2.4.8, )"
+          },
           "Xamarin.Essentials": {
             "target": "Package",
             "version": "[1.5.0, )"
