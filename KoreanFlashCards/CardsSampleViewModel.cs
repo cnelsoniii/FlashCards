@@ -18,11 +18,11 @@ namespace KoreanFlashCards
 		{
 			Items = new ObservableCollection<object>
 			{
-				new { Source = CreateSource(), Ind = _imageCount++, Color = Color.Red, Title = "First" },
-				new { Source = CreateSource(), Ind = _imageCount++, Color = Color.Green, Title = "Second" },
-				new { Source = CreateSource(), Ind = _imageCount++, Color = Color.Gold, Title = "Long Title" },
-				new { Source = CreateSource(), Ind = _imageCount++, Color = Color.Silver, Title = "4" },
-				new { Source = CreateSource(), Ind = _imageCount++, Color = Color.Blue, Title = "5th" }
+				new { Ind = _imageCount++, Color = Color.Red, Title = "First" },
+				new { Ind = _imageCount++, Color = Color.Green, Title = "Second" },
+				new { Ind = _imageCount++, Color = Color.Gold, Title = "Long Title" },
+				new { Ind = _imageCount++, Color = Color.Silver, Title = "4" },
+				new { Ind = _imageCount++, Color = Color.Blue, Title = "5th" }
 			};
 
 			PanPositionChangedCommand = new Command(v =>
@@ -76,11 +76,5 @@ namespace KoreanFlashCards
 		public bool IsUserInteractionRunning { get; set; }
 
 		public ObservableCollection<object> Items { get; }
-
-		private string CreateSource()
-		{
-			var source = $"https://picsum.photos/500/500?image={_imageCount}";
-			return source;
-		}
 	}
 }
