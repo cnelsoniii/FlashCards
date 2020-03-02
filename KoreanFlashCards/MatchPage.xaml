@@ -13,18 +13,18 @@
                 <ColumnDefinition Width="*" />
             </Grid.ColumnDefinitions>
 
-            <Button Text="Green" Grid.Row="0" Grid.Column="0" Clicked="Button_Clicked" BackgroundColor="LightGray"/>
-            <Button Text="Blue" Grid.Row="0" Grid.Column="1" Clicked="Button_Clicked" BackgroundColor="LightGray" />
-            <Button Text="Red" Grid.Row="0" Grid.Column="2" Clicked="Button_Clicked" BackgroundColor="LightGray" />
-            <Button Text="Purple" Grid.Row="1" Grid.Column="0" Clicked="Button_Clicked" BackgroundColor="LightGray" />
-            <Button Text="Yellow" Grid.Row="1" Grid.Column="1" Clicked="Button_Clicked" BackgroundColor="LightGray" />
-            <Button Text="Pink" Grid.Row="1" Grid.Column="2" Clicked="Button_Clicked" BackgroundColor="LightGray" />
-            <Button Text="Green" Grid.Row="2" Grid.Column="0" Clicked="Button_Clicked" BackgroundColor="LightGray" />
-            <Button Text="Blue" Grid.Row="2" Grid.Column="1" Clicked="Button_Clicked" BackgroundColor="LightGray" />
-            <Button Text="Red" Grid.Row="2" Grid.Column="2" Clicked="Button_Clicked" BackgroundColor="LightGray" />
-            <Button Text="Purple" Grid.Row="3" Grid.Column="0" Clicked="Button_Clicked" BackgroundColor="LightGray" />
-            <Button Text="Yellow" Grid.Row="3" Grid.Column="1" Clicked="Button_Clicked" BackgroundColor="LightGray" />
-            <Button Text="Pink" Grid.Row="3" Grid.Column="2" Clicked="Button_Clicked" BackgroundColor="LightGray" />
+            <Button x:Name="button1" Text="to come" ClassId="to come,오다" Grid.Row="0" Grid.Column="0" Clicked="Button_Clicked" BackgroundColor="LightGray"/>
+            <Button x:Name="button2" Text="오다" ClassId="to come,오다" Grid.Row="0" Grid.Column="1" Clicked="Button_Clicked" BackgroundColor="LightGray" />
+            <Button x:Name="button3" Text="마시다" ClassId="to drink,마시다" Grid.Row="0" Grid.Column="2" Clicked="Button_Clicked" BackgroundColor="LightGray" />
+            <Button x:Name="button4" Text="to go" ClassId="to go,가다" Grid.Row="1" Grid.Column="0" Clicked="Button_Clicked" BackgroundColor="LightGray" />
+            <Button x:Name="button5" Text="듣다" ClassId="to hear,듣다" Grid.Row="1" Grid.Column="1" Clicked="Button_Clicked" BackgroundColor="LightGray" />
+            <Button x:Name="button6" Text="to drink" ClassId="to drink,마시다" Grid.Row="1" Grid.Column="2" Clicked="Button_Clicked" BackgroundColor="LightGray" />
+            <Button x:Name="button7" Text="주다" ClassId="to give,주다" Grid.Row="2" Grid.Column="0" Clicked="Button_Clicked" BackgroundColor="LightGray" />
+            <Button x:Name="button8" Text="먹다" ClassId="to eat,먹다" Grid.Row="2" Grid.Column="1" Clicked="Button_Clicked" BackgroundColor="LightGray" />
+            <Button x:Name="button9" Text="to eat" ClassId="to eat,먹다" Grid.Row="2" Grid.Column="2" Clicked="Button_Clicked" BackgroundColor="LightGray" />
+            <Button x:Name="button10" Text="to give" ClassId="to give,주다" Grid.Row="3" Grid.Column="0" Clicked="Button_Clicked" BackgroundColor="LightGray" />
+            <Button x:Name="button11" Text="가다" ClassId="to go,가다" Grid.Row="3" Grid.Column="1" Clicked="Button_Clicked" BackgroundColor="LightGray" />
+            <Button x:Name="button12" Text="to hear" ClassId="to hear,듣다" Grid.Row="3" Grid.Column="2" Clicked="Button_Clicked" BackgroundColor="LightGray" />
 
         </Grid>
     </ContentPage.Content>

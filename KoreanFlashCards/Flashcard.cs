@@ -10,5 +10,11 @@ namespace KoreanFlashCards
         {
 
         }
+
+        public Flashcard(string englishText, string koreanText)
+        {
+            EnglishText = englishText;
+            KoreanText = koreanText;
+        }
     }
 }

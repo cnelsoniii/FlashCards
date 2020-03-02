@@ -37,7 +37,7 @@ namespace KoreanFlashCards
             secondClicked = clickedButton;
             secondClicked.BackgroundColor = Color.Blue;
 
-            if (firstClicked.Text == secondClicked.Text && firstClicked.Id != secondClicked.Id)
+            if (firstClicked.ClassId == secondClicked.ClassId && firstClicked.Id != secondClicked.Id)
             {
                 firstClicked.BackgroundColor = Color.Green;
                 secondClicked.BackgroundColor = Color.Green;
