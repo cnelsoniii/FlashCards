@@ -8,17 +8,17 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-[assembly: global::Xamarin.Forms.Xaml.XamlResourceIdAttribute("KoreanFlashCards.FcPage.xaml", "FcPage.xaml", typeof(global::KoreanFlashCards.FcPage))]
+[assembly: global::Xamarin.Forms.Xaml.XamlResourceIdAttribute("KoreanFlashCards.MultipleChoicePage.xaml", "MultipleChoicePage.xaml", typeof(global::KoreanFlashCards.MultipleChoicePage))]
 
 namespace KoreanFlashCards {
     
     
-    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("FcPage.xaml")]
-    public partial class FcPage : global::Xamarin.Forms.ContentPage {
+    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("MultipleChoicePage.xaml")]
+    public partial class MultipleChoicePage : global::Xamarin.Forms.ContentPage {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
         private void InitializeComponent() {
-            global::Xamarin.Forms.Xaml.Extensions.LoadFromXaml(this, typeof(FcPage));
+            global::Xamarin.Forms.Xaml.Extensions.LoadFromXaml(this, typeof(MultipleChoicePage));
         }
     }
 }

@@ -18,11 +18,14 @@
   <ItemGroup>
     <EmbeddedResource Remove="SubmitPage.xaml" />
     <EmbeddedResource Remove="FlashCardPage.xaml" />
+    <EmbeddedResource Remove="Pages\MultipleChoicePage.xaml" />
+    <EmbeddedResource Remove="MainPage.xaml" />
   </ItemGroup>
   <ItemGroup>
     <Compile Remove="SubmitPage.xaml.cs" />
     <Compile Remove="FlashCardPage.cs" />
     <Compile Remove="FlashCardPage.xaml.cs" />
+    <Compile Remove="Pages\MultipleChoicePage.xaml.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Pages\" />

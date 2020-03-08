@@ -15,11 +15,12 @@ namespace KoreanFlashCards
     {
         public MainPage()
         {
-            InitializeComponent();        }
+            InitializeComponent();
+        }
 
         void QuizButton_Clicked(System.Object sender, System.EventArgs e)
         {
-            Navigation.PushAsync(new MatchPage());
+            Navigation.PushAsync(new MatchPage()); 
         }
 
         void MatchButton_Clicked(System.Object sender, System.EventArgs e)
@@ -39,7 +40,7 @@ namespace KoreanFlashCards
 
         void MultipleChoiceButton_Clicked(System.Object sender, System.EventArgs e)
         {
-            Navigation.PushAsync(new MatchPage());
+            Navigation.PushAsync(new MultipleChoicePage());
         }
     }
 }
