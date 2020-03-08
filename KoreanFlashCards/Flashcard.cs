@@ -8,7 +8,8 @@ namespace KoreanFlashCards
 
         public Flashcard()
         {
-
+            EnglishText = "";
+            KoreanText = "";
         }
 
         public Flashcard(string englishText, string koreanText)
