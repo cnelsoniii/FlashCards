@@ -35,7 +35,7 @@ namespace KoreanFlashCards
 
         void WriteButton_Clicked(System.Object sender, System.EventArgs e)
         {
-            Navigation.PushAsync(new MatchPage());
+            Navigation.PushAsync(new WritePage());
         }
 
         void MultipleChoiceButton_Clicked(System.Object sender, System.EventArgs e)

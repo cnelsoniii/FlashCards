@@ -9,7 +9,7 @@
         <Button x:Name="studyButton" Text="Study"/>
         <Button x:Name="matchButton" Text="Match" Clicked="MatchButton_Clicked"/>
         <Button x:Name="quizButton" Text="Quiz" Clicked="QuizButton_Clicked"/>
-        <Button x:Name="writeButton" Text="Write"/>
+        <Button x:Name="writeButton" Text="Write" Clicked="WriteButton_Clicked"/>
         <Button x:Name="multipleChoiceButton" Text="Multiple Choice" Clicked="MultipleChoiceButton_Clicked"/>
     </StackLayout>
 </ContentPage>

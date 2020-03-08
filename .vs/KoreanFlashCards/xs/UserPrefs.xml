@@ -1,13 +1,12 @@
 ﻿<Properties StartupConfiguration="{6001636B-464E-4AE2-9DD7-EB0F5DF7DEEC}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="KoreanFlashCards/App.xaml.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="KoreanFlashCards/Pages/MainPage.xaml">
     <Files>
-      <File FileName="KoreanFlashCards/MultipleChoicePage.xaml" Line="29" Column="9" />
-      <File FileName="KoreanFlashCards/MultipleChoicePage.xaml.cs" Line="13" Column="1" />
-      <File FileName="KoreanFlashCards/Pages/MainPage.xaml" Line="1" Column="1" />
-      <File FileName="KoreanFlashCards/Pages/MainPage.xaml.cs" Line="43" Column="56" />
-      <File FileName="KoreanFlashCards/MainPage.xaml" Line="1" Column="1" />
-      <File FileName="KoreanFlashCards/App.xaml" Line="1" Column="1" />
-      <File FileName="KoreanFlashCards/App.xaml.cs" Line="13" Column="65" />
+      <File FileName="KoreanFlashCards/MultipleChoicePage.xaml" Line="4" Column="1" />
+      <File FileName="KoreanFlashCards/MultipleChoicePage.xaml.cs" Line="1" Column="1" />
+      <File FileName="KoreanFlashCards/WritePage.xaml.cs" Line="1" Column="1" />
+      <File FileName="KoreanFlashCards/WritePage.xaml" Line="6" Column="44" />
+      <File FileName="KoreanFlashCards/Pages/MainPage.xaml.cs" Line="38" Column="47" />
+      <File FileName="KoreanFlashCards/Pages/MainPage.xaml" Line="12" Column="52" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -16,13 +15,10 @@
             <Node name="KoreanFlashCards" expanded="True">
               <Node name="Dependencies" expanded="True" />
               <Node name="Pages" expanded="True">
-                <Node name="MainPage.xaml" expanded="True" />
-                <Node name="MatchPage.xaml" expanded="True" />
-              </Node>
-              <Node name="App.xaml" expanded="True">
-                <Node name="App.xaml.cs" selected="True" />
+                <Node name="MainPage.xaml" expanded="True" selected="True" />
               </Node>
               <Node name="MultipleChoicePage.xaml" expanded="True" />
+              <Node name="WritePage.xaml" expanded="True" />
             </Node>
           </Node>
         </State>
