@@ -18,11 +18,6 @@ namespace KoreanFlashCards
             InitializeComponent();
         }
 
-        void QuizButton_Clicked(System.Object sender, System.EventArgs e)
-        {
-            Navigation.PushAsync(new MatchPage()); 
-        }
-
         void MatchButton_Clicked(System.Object sender, System.EventArgs e)
         {
             Navigation.PushAsync(new MatchPage());
@@ -30,7 +25,7 @@ namespace KoreanFlashCards
 
         void StudyButton_Clicked(System.Object sender, System.EventArgs e)
         {
-            Navigation.PushAsync(new MatchPage());
+            Navigation.PushAsync(new StudyPage());
         }
 
         void WriteButton_Clicked(System.Object sender, System.EventArgs e)

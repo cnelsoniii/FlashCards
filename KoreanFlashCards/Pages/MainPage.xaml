@@ -6,9 +6,8 @@
              mc:Ignorable="d"
              x:Class="KoreanFlashCards.MainPage">
     <StackLayout>
-        <Button x:Name="studyButton" Text="Study"/>
+        <Button x:Name="studyButton" Text="Study" Clicked="StudyButton_Clicked"/>
         <Button x:Name="matchButton" Text="Match" Clicked="MatchButton_Clicked"/>
-        <Button x:Name="quizButton" Text="Quiz" Clicked="QuizButton_Clicked"/>
         <Button x:Name="writeButton" Text="Write" Clicked="WriteButton_Clicked"/>
         <Button x:Name="multipleChoiceButton" Text="Multiple Choice" Clicked="MultipleChoiceButton_Clicked"/>
     </StackLayout>

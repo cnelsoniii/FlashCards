@@ -1,12 +1,10 @@
 ﻿<Properties StartupConfiguration="{6001636B-464E-4AE2-9DD7-EB0F5DF7DEEC}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="KoreanFlashCards/Pages/MainPage.xaml">
+  <MonoDevelop.Ide.Workbench ActiveDocument="KoreanFlashCards/Pages/MainPage.xaml.cs">
     <Files>
-      <File FileName="KoreanFlashCards/MultipleChoicePage.xaml" Line="4" Column="1" />
-      <File FileName="KoreanFlashCards/MultipleChoicePage.xaml.cs" Line="1" Column="1" />
-      <File FileName="KoreanFlashCards/WritePage.xaml.cs" Line="1" Column="1" />
-      <File FileName="KoreanFlashCards/WritePage.xaml" Line="6" Column="44" />
-      <File FileName="KoreanFlashCards/Pages/MainPage.xaml.cs" Line="38" Column="47" />
-      <File FileName="KoreanFlashCards/Pages/MainPage.xaml" Line="12" Column="52" />
+      <File FileName="KoreanFlashCards/StudyPage.xaml" Line="9" Column="1" />
+      <File FileName="KoreanFlashCards/StudyPage.xaml.cs" Line="1" Column="1" />
+      <File FileName="KoreanFlashCards/Pages/MainPage.xaml" Line="1" Column="1" />
+      <File FileName="KoreanFlashCards/Pages/MainPage.xaml.cs" Line="33" Column="47" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -15,9 +13,12 @@
             <Node name="KoreanFlashCards" expanded="True">
               <Node name="Dependencies" expanded="True" />
               <Node name="Pages" expanded="True">
-                <Node name="MainPage.xaml" expanded="True" selected="True" />
+                <Node name="MainPage.xaml" expanded="True">
+                  <Node name="MainPage.xaml.cs" selected="True" />
+                </Node>
               </Node>
               <Node name="MultipleChoicePage.xaml" expanded="True" />
+              <Node name="StudyPage.xaml" expanded="True" />
               <Node name="WritePage.xaml" expanded="True" />
             </Node>
           </Node>

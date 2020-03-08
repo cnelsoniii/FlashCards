@@ -17,3 +17,4 @@
 /Users/corneliusnelson/Projects/KoreanFlashCards/KoreanFlashCards/obj/Debug/netstandard2.0/KoreanFlashCards.pdb
 /Users/corneliusnelson/Projects/KoreanFlashCards/KoreanFlashCards/obj/Debug/netstandard2.0/KoreanFlashCards.csprojAssemblyReference.cache
 /Users/corneliusnelson/Projects/KoreanFlashCards/KoreanFlashCards/obj/Debug/netstandard2.0/WritePage.xaml.g.cs
+/Users/corneliusnelson/Projects/KoreanFlashCards/KoreanFlashCards/obj/Debug/netstandard2.0/StudyPage.xaml.g.cs
