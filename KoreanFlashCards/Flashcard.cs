@@ -3,19 +3,22 @@ namespace KoreanFlashCards
 {
     public class Flashcard
     {
-        public string EnglishText { get; set; }
-        public string KoreanText { get; set; }
+        public string Term { get; set; }
+        public string Definition { get; set; }
+        public string Key { get; set; }
 
         public Flashcard()
         {
-            EnglishText = "";
-            KoreanText = "";
+            Term = "";
+            Definition = "";
+            Key = "";
         }
 
-        public Flashcard(string englishText, string koreanText)
+        public Flashcard(string term, string definition)
         {
-            EnglishText = englishText;
-            KoreanText = koreanText;
+            Term = term;
+            Definition = definition;
+            Key = term + definition;
         }
     }
 }

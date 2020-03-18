@@ -12,10 +12,11 @@ namespace KoreanFlashCards
 
         }
 
-        public void AddToDeck(Flashcard flashcard)
+        public void AddToDeck(string term, string definition)
         {
             if (Flashcards == null) Flashcards = new List<Flashcard>();
-            Flashcards.Add(flashcard);
+
+            Flashcards.Add(new Flashcard(term, definition));
         }
     }
 }

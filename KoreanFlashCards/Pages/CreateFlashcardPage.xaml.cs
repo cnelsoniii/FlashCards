@@ -15,8 +15,8 @@ namespace KoreanFlashCards
             FlashCards.Add(new Flashcard());
             FlashCards.Add(new Flashcard
             {
-                EnglishText = "Hello",
-                KoreanText = "World"
+                Term = "Hello",
+                Definition = "World"
             });
             listView.ItemsSource = FlashCards;
         }

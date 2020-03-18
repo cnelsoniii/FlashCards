@@ -45,14 +45,14 @@
 /Users/corneliusnelson/Projects/KoreanFlashCards/KoreanFlashCards.iOS/bin/iPhoneSimulator/Debug/zh-Hant/Xamarin.Forms.Platform.iOS.resources.dll
 /Users/corneliusnelson/Projects/KoreanFlashCards/KoreanFlashCards.iOS/bin/iPhoneSimulator/Debug/KoreanFlashCards.dll
 /Users/corneliusnelson/Projects/KoreanFlashCards/KoreanFlashCards.iOS/bin/iPhoneSimulator/Debug/KoreanFlashCards.pdb
-/Users/corneliusnelson/Projects/KoreanFlashCards/KoreanFlashCards.iOS/obj/iPhoneSimulator/Debug/ibtool/_BundleResourceWithLogicalName.items
-/Users/corneliusnelson/Projects/KoreanFlashCards/KoreanFlashCards.iOS/obj/iPhoneSimulator/Debug/actool/_PartialAppManifest.items
-/Users/corneliusnelson/Projects/KoreanFlashCards/KoreanFlashCards.iOS/obj/iPhoneSimulator/Debug/actool/_BundleResourceWithLogicalName.items
-/Users/corneliusnelson/Projects/KoreanFlashCards/KoreanFlashCards.iOS/obj/iPhoneSimulator/Debug/coremlc/_PartialAppManifest.items
-/Users/corneliusnelson/Projects/KoreanFlashCards/KoreanFlashCards.iOS/obj/iPhoneSimulator/Debug/coremlc/_BundleResourceWithLogicalName.items
-/Users/corneliusnelson/Projects/KoreanFlashCards/KoreanFlashCards.iOS/obj/iPhoneSimulator/Debug/optimized/
 /Users/corneliusnelson/Projects/KoreanFlashCards/KoreanFlashCards.iOS/obj/iPhoneSimulator/Debug/KoreanFlashCards.iOS.csprojAssemblyReference.cache
 /Users/corneliusnelson/Projects/KoreanFlashCards/KoreanFlashCards.iOS/obj/iPhoneSimulator/Debug/XamlC.stamp
 /Users/corneliusnelson/Projects/KoreanFlashCards/KoreanFlashCards.iOS/obj/iPhoneSimulator/Debug/KoreanFlashCards.iOS.csproj.CopyComplete
 /Users/corneliusnelson/Projects/KoreanFlashCards/KoreanFlashCards.iOS/obj/iPhoneSimulator/Debug/KoreanFlashCards.iOS.exe
 /Users/corneliusnelson/Projects/KoreanFlashCards/KoreanFlashCards.iOS/obj/iPhoneSimulator/Debug/KoreanFlashCards.iOS.pdb
+/Users/corneliusnelson/Projects/KoreanFlashCards/KoreanFlashCards.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.3/ibtool/_BundleResourceWithLogicalName.items
+/Users/corneliusnelson/Projects/KoreanFlashCards/KoreanFlashCards.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.3/actool/_PartialAppManifest.items
+/Users/corneliusnelson/Projects/KoreanFlashCards/KoreanFlashCards.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.3/actool/_BundleResourceWithLogicalName.items
+/Users/corneliusnelson/Projects/KoreanFlashCards/KoreanFlashCards.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.3/coremlc/_PartialAppManifest.items
+/Users/corneliusnelson/Projects/KoreanFlashCards/KoreanFlashCards.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.3/coremlc/_BundleResourceWithLogicalName.items
+/Users/corneliusnelson/Projects/KoreanFlashCards/KoreanFlashCards.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.3/optimized/

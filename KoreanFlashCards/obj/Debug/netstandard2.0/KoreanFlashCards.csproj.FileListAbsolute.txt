@@ -5,7 +5,6 @@
 /Users/corneliusnelson/Projects/KoreanFlashCards/KoreanFlashCards/obj/Debug/netstandard2.0/App.xaml.g.cs
 /Users/corneliusnelson/Projects/KoreanFlashCards/KoreanFlashCards/obj/Debug/netstandard2.0/MultipleChoicePage.xaml.g.cs
 /Users/corneliusnelson/Projects/KoreanFlashCards/KoreanFlashCards/obj/Debug/netstandard2.0/Pages/CreateFlashcardPage.xaml.g.cs
-/Users/corneliusnelson/Projects/KoreanFlashCards/KoreanFlashCards/obj/Debug/netstandard2.0/Pages/FcPage.xaml.g.cs
 /Users/corneliusnelson/Projects/KoreanFlashCards/KoreanFlashCards/obj/Debug/netstandard2.0/Pages/MainPage.xaml.g.cs
 /Users/corneliusnelson/Projects/KoreanFlashCards/KoreanFlashCards/obj/Debug/netstandard2.0/Pages/MatchPage.xaml.g.cs
 /Users/corneliusnelson/Projects/KoreanFlashCards/KoreanFlashCards/obj/Debug/netstandard2.0/Pages/QuizPage.xaml.g.cs

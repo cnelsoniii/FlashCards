@@ -2,29 +2,15 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="KoreanFlashCards.MultipleChoicePage">
     <ContentPage.Content>
         <StackLayout>
-                    <Grid>
-    <Grid.RowDefinitions>
-      <RowDefinition Height="*" />
-      <RowDefinition Height="*" />
-    </Grid.RowDefinitions>
-    <Grid.ColumnDefinitions>
-      <ColumnDefinition Width="*" />
-    </Grid.ColumnDefinitions>
 
-    <Grid Grid.Row="0" Grid.Column="0">
-      <Label Text="Term" HorizontalOptions="Center" VerticalOptions="Center" />
-    </Grid>
+            <Label Text="Text" HorizontalOptions="Center" VerticalOptions="CenterAndExpand"/>
+        <FlexLayout Direction="Column" AlignItems="Center" JustifyContent="SpaceEvenly">
+            <Button x:Name="button1" Text="Button 1" Clicked="Button_Clicked" />
+            <Button x:Name="button2" Text="Button 2" Clicked="Button_Clicked" />
+            <Button x:Name="button3" Text="Button 3" Clicked="Button_Clicked" />
+            <Button x:Name="button4" Text="Button 4" Clicked="Button_Clicked" />
+        </FlexLayout>
 
-    <Grid Grid.Row="1" Grid.Column="0">
-        <StackLayout>
-            <Button Text="Button 1" />
-            <Button Text="Button 2" />
-            <Button Text="Button 3" />
-            <Button Text="Button 4" />
-        </StackLayout>
-    </Grid>
-
-    </Grid>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

@@ -1,35 +1,34 @@
-﻿<Properties StartupConfiguration="{6001636B-464E-4AE2-9DD7-EB0F5DF7DEEC}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="KoreanFlashCards/Pages/MainPage.xaml.cs">
+﻿<Properties StartupConfiguration="{11DCDB46-CD75-496D-8CBA-7E20BECAC992}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="KoreanFlashCards/StudyPage.xaml">
     <Files>
-      <File FileName="KoreanFlashCards/StudyPage.xaml" Line="9" Column="1" />
-      <File FileName="KoreanFlashCards/StudyPage.xaml.cs" Line="1" Column="1" />
-      <File FileName="KoreanFlashCards/Pages/MainPage.xaml" Line="1" Column="1" />
-      <File FileName="KoreanFlashCards/Pages/MainPage.xaml.cs" Line="33" Column="47" />
+      <File FileName="KoreanFlashCards/Pages/MainPage.xaml.cs" Line="1" Column="1" />
+      <File FileName="KoreanFlashCards/MultipleChoicePage.xaml.cs" Line="1" Column="1" />
+      <File FileName="KoreanFlashCards/MultipleChoicePage.xaml" Line="7" Column="88" />
+      <File FileName="KoreanFlashCards/StudyPage.xaml" Line="8" Column="30" />
+      <File FileName="KoreanFlashCards/StudyPage.xaml.cs" Line="15" Column="35" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="KoreanFlashCards" expanded="True">
             <Node name="KoreanFlashCards" expanded="True">
-              <Node name="Dependencies" expanded="True" />
               <Node name="Pages" expanded="True">
-                <Node name="MainPage.xaml" expanded="True">
-                  <Node name="MainPage.xaml.cs" selected="True" />
-                </Node>
+                <Node name="MainPage.xaml" expanded="True" />
+                <Node name="QuizPage.xaml" expanded="True" />
               </Node>
               <Node name="MultipleChoicePage.xaml" expanded="True" />
-              <Node name="StudyPage.xaml" expanded="True" />
-              <Node name="WritePage.xaml" expanded="True" />
+              <Node name="StudyPage.xaml" expanded="True" selected="True" />
             </Node>
+            <Node name="KoreanFlashCards.iOS" expanded="True" />
           </Node>
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhone" />
-  <MonoDevelop.Ide.ItemProperties.KoreanFlashCards.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneDeviceTarget" />
-  <MonoDevelop.Ide.ItemProperties.KoreanFlashCards.Android PreferredExecutionTarget="Android.288479dc793f7ece" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.KoreanFlashCards.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.6E94367C-9079-4779-977E-ABD53AF873B4" />
+  <MonoDevelop.Ide.ItemProperties.KoreanFlashCards.Android PreferredExecutionTarget="Android.SelectDevice" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>

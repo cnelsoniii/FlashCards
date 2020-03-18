@@ -11,21 +11,23 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Xamarin.Forms" Version="4.5.0.356" />
-    <PackageReference Include="Xamarin.Essentials" Version="1.5.0" />
-    <PackageReference Include="CardsView" Version="2.4.8" />
+    <PackageReference Include="Xamarin.Forms" Version="4.5.0.396" />
+    <PackageReference Include="Xamarin.Essentials" Version="1.5.1" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Remove="SubmitPage.xaml" />
     <EmbeddedResource Remove="FlashCardPage.xaml" />
     <EmbeddedResource Remove="Pages\MultipleChoicePage.xaml" />
     <EmbeddedResource Remove="MainPage.xaml" />
+    <EmbeddedResource Remove="Pages\FcPage.xaml" />
   </ItemGroup>
   <ItemGroup>
     <Compile Remove="SubmitPage.xaml.cs" />
     <Compile Remove="FlashCardPage.cs" />
     <Compile Remove="FlashCardPage.xaml.cs" />
     <Compile Remove="Pages\MultipleChoicePage.xaml.cs" />
+    <Compile Remove="CardsSampleViewModel.cs" />
+    <Compile Remove="Pages\FcPage.xaml.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Pages\" />
