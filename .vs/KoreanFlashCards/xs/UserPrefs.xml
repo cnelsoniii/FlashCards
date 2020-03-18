@@ -1,11 +1,11 @@
 ﻿<Properties StartupConfiguration="{11DCDB46-CD75-496D-8CBA-7E20BECAC992}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="KoreanFlashCards/StudyPage.xaml">
+  <MonoDevelop.Ide.Workbench ActiveDocument="KoreanFlashCards/StudyPage.xaml.cs">
     <Files>
       <File FileName="KoreanFlashCards/Pages/MainPage.xaml.cs" Line="1" Column="1" />
       <File FileName="KoreanFlashCards/MultipleChoicePage.xaml.cs" Line="1" Column="1" />
       <File FileName="KoreanFlashCards/MultipleChoicePage.xaml" Line="7" Column="88" />
-      <File FileName="KoreanFlashCards/StudyPage.xaml" Line="8" Column="30" />
-      <File FileName="KoreanFlashCards/StudyPage.xaml.cs" Line="15" Column="35" />
+      <File FileName="KoreanFlashCards/StudyPage.xaml" Line="5" Column="34" />
+      <File FileName="KoreanFlashCards/StudyPage.xaml.cs" Line="20" Column="44" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -17,7 +17,9 @@
                 <Node name="QuizPage.xaml" expanded="True" />
               </Node>
               <Node name="MultipleChoicePage.xaml" expanded="True" />
-              <Node name="StudyPage.xaml" expanded="True" selected="True" />
+              <Node name="StudyPage.xaml" expanded="True">
+                <Node name="StudyPage.xaml.cs" selected="True" />
+              </Node>
             </Node>
             <Node name="KoreanFlashCards.iOS" expanded="True" />
           </Node>
