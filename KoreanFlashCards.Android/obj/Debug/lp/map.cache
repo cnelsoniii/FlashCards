@@ -1,5 +1,6 @@
 FormsViewGroup
-PanCardView.Droid
+Syncfusion.Cards.XForms.Android
+Syncfusion.Core.XForms.Android
 Xamarin.Android.Arch.Core.Common
 Xamarin.Android.Arch.Core.Runtime
 Xamarin.Android.Arch.Lifecycle.Common

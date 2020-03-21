@@ -1,15 +1,32 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="KoreanFlashCards.StudyPage">
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:cards="clr-namespace:Syncfusion.XForms.Cards;assembly=Syncfusion.Cards.XForms"
+             x:Class="KoreanFlashCards.StudyPage">
     <ContentPage.Content>
 
-        <Frame BorderColor="Gray"
-       CornerRadius="10"
-       HasShadow="True"
-               Margin="20, 20, 20, 20">
-            <StackLayout>
-                <Label Text="TEXT" HorizontalOptions="Center" VerticalOptions="CenterAndExpand" />
-            </StackLayout>
-        </Frame>
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="9*" />
+        </Grid.RowDefinitions>
+
+        <cards:SfCardLayout SwipeDirection="Right" BackgroundColor="#F0F0F0">
+
+	<cards:SfCardView SwipeToDismiss="True">
+		<Label Text="Cyan" BackgroundColor="Cyan" HorizontalOptions="CenterAndExpand" VerticalOptions="Center"/>
+	</cards:SfCardView>
+
+	<cards:SfCardView SwipeToDismiss="True">
+		<Label  Text="Yellow" BackgroundColor="Yellow"/>
+	</cards:SfCardView>
+
+	<cards:SfCardView SwipeToDismiss="True" BackgroundColor="Orange">
+		<Label  Text="Orange" BackgroundColor="Orange" HorizontalOptions="CenterAndExpand" VerticalOptions="Center"/>
+	</cards:SfCardView>  
+
+</cards:SfCardLayout>
+    </Grid>
+
 
     </ContentPage.Content>
 </ContentPage>

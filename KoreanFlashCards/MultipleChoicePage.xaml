@@ -4,13 +4,11 @@
         <StackLayout>
 
             <Label Text="Text" HorizontalOptions="Center" VerticalOptions="CenterAndExpand"/>
-        <FlexLayout Direction="Column" AlignItems="Center" JustifyContent="SpaceEvenly">
-            <Button x:Name="button1" Text="Button 1" Clicked="Button_Clicked" />
-            <Button x:Name="button2" Text="Button 2" Clicked="Button_Clicked" />
-            <Button x:Name="button3" Text="Button 3" Clicked="Button_Clicked" />
-            <Button x:Name="button4" Text="Button 4" Clicked="Button_Clicked" />
-        </FlexLayout>
 
+            <Button x:Name="button1" Text="Button 1" Clicked="Button_Clicked" VerticalOptions="End" Margin="20,0" BackgroundColor="LightGray"/>
+            <Button x:Name="button2" Text="Button 2" Clicked="Button_Clicked" VerticalOptions="End" Margin="20,0" BackgroundColor="LightGray"/>
+            <Button x:Name="button3" Text="Button 3" Clicked="Button_Clicked" VerticalOptions="End" Margin="20,0" BackgroundColor="LightGray"/>
+            <Button x:Name="button4" Text="Button 4" Clicked="Button_Clicked" VerticalOptions="End" Margin="20,0,20,20" BackgroundColor="LightGray"/>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

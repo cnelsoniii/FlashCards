@@ -56,3 +56,8 @@
 /Users/corneliusnelson/Projects/KoreanFlashCards/KoreanFlashCards.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.3/coremlc/_PartialAppManifest.items
 /Users/corneliusnelson/Projects/KoreanFlashCards/KoreanFlashCards.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.3/coremlc/_BundleResourceWithLogicalName.items
 /Users/corneliusnelson/Projects/KoreanFlashCards/KoreanFlashCards.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.3/optimized/
+/Users/corneliusnelson/Projects/KoreanFlashCards/KoreanFlashCards.iOS/bin/iPhoneSimulator/Debug/Syncfusion.Licensing.dll
+/Users/corneliusnelson/Projects/KoreanFlashCards/KoreanFlashCards.iOS/bin/iPhoneSimulator/Debug/Syncfusion.Cards.XForms.dll
+/Users/corneliusnelson/Projects/KoreanFlashCards/KoreanFlashCards.iOS/bin/iPhoneSimulator/Debug/Syncfusion.Cards.XForms.iOS.dll
+/Users/corneliusnelson/Projects/KoreanFlashCards/KoreanFlashCards.iOS/bin/iPhoneSimulator/Debug/Syncfusion.Core.XForms.dll
+/Users/corneliusnelson/Projects/KoreanFlashCards/KoreanFlashCards.iOS/bin/iPhoneSimulator/Debug/Syncfusion.Core.XForms.iOS.dll

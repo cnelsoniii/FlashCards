@@ -36,6 +36,10 @@
       "frameworks": {
         "monoandroid90": {
           "dependencies": {
+            "Syncfusion.Xamarin.Cards": {
+              "target": "Package",
+              "version": "[17.4.0.55, )"
+            },
             "Xamarin.Essentials": {
               "target": "Package",
               "version": "[1.5.1, )"
@@ -85,6 +89,10 @@
               "target": "Package",
               "version": "[2.0.3, )",
               "autoReferenced": true
+            },
+            "Syncfusion.Xamarin.Cards": {
+              "target": "Package",
+              "version": "[17.4.0.55, )"
             },
             "Xamarin.Essentials": {
               "target": "Package",

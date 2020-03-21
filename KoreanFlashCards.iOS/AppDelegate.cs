@@ -23,6 +23,7 @@ namespace KoreanFlashCards.iOS
         public override bool FinishedLaunching(UIApplication app, NSDictionary options)
         {
             global::Xamarin.Forms.Forms.Init();
+            Syncfusion.XForms.iOS.Cards.SfCardViewRenderer.Init();
             LoadApplication(new App());
 
             return base.FinishedLaunching(app, options);
