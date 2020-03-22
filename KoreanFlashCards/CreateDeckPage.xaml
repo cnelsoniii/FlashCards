@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentView
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    x:Class="KoreanFlashCards.CreateDeckPage">
+    <ContentView.Content>
+        <ScrollView>
+            <StackLayout Margin="20,20,20,0">
+                <Entry Placeholder="Title"/>
+                <Label Text="Title" FontSize="Micro"/>
+                <Button Text="+ Description" HorizontalOptions="End"/>
+                <ListView ItemsSource="{Binding Card}">
+                    <ListView.ItemTemplate>
+                        <DataTemplate>
+                            <ViewCell>
+                                <StackLayout>
+                                    <Entry Text="{Binding Term}" />
+                                    <Label Text="Term" FontSize="Micro" />
+                                    <Entry Text="{Binding Defintion}" />
+                                    <Label Text="Defintion" FontSize="Micro" />
+                                </StackLayout>
+                            </ViewCell>
+                        </DataTemplate>
+                    </ListView.ItemTemplate>
+                </ListView>
+            </StackLayout>
+        </ScrollView>
+    </ContentView.Content>
+</ContentView>

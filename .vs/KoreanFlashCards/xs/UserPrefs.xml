@@ -1,8 +1,8 @@
 ﻿<Properties StartupConfiguration="{11DCDB46-CD75-496D-8CBA-7E20BECAC992}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="KoreanFlashCards/MultipleChoicePage.xaml">
+  <MonoDevelop.Ide.Workbench ActiveDocument="KoreanFlashCards/CreateDeckPage.xaml">
     <Files>
-      <File FileName="KoreanFlashCards/WritePage.xaml" Line="7" Column="13" />
-      <File FileName="KoreanFlashCards/MultipleChoicePage.xaml" Line="1" Column="1" />
+      <File FileName="KoreanFlashCards/CreateDeckPage.xaml" Line="19" Column="68" />
+      <File FileName="KoreanFlashCards/CreateDeckPage.xaml.cs" Line="12" Column="10" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -10,7 +10,8 @@
           <Node name="KoreanFlashCards" expanded="True">
             <Node name="KoreanFlashCards" expanded="True">
               <Node name="Pages" expanded="True" />
-              <Node name="MultipleChoicePage.xaml" expanded="True" selected="True" />
+              <Node name="CreateDeckPage.xaml" expanded="True" selected="True" />
+              <Node name="MultipleChoicePage.xaml" expanded="True" />
             </Node>
           </Node>
         </State>
